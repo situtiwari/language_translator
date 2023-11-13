@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #5372F0;
+}
+
+.container{
+    width: 690px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 30px;
+}
+.wrapper{
+   border-radius: 5px;
+   border: 1px solid #bbb;
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+.text-input .to-text{
+    border-left: 1px solid #bbb;
+}
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    resize: none;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+}
+.controls, li, .icons, .icons i{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.controls{
+    padding: 12px 15px;
+    align-items: center;
+}
+.controls .row.form .icons{
+    border-right: 1px solid #bbb;
+    padding-right: 15px;
+}
+.controls .row.to .icons{
+    border-left: 1px solid #bbb;
+    padding-left: 15px;
+}
+.controls .icons{
+    width: 38%;
+}
+.controls .icons i{
+    color: #9f9f9f;
+    font-size: 14px;
+    width: 50px;
+    cursor: pointer;
+    justify-content: center;
+}
+.controls .row select{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+}
+.controls .exchange{
+     color: #9f9f9f;
+     font-size: 16px;
+     cursor: pointer;
+}
+.container button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background: #728cf3;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
